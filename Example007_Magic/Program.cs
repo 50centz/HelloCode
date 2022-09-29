@@ -22,7 +22,7 @@ int x = xa, y = xb;
 
 int count = 0;
 
-while (count < 1000000) {
+while (count < 10000) {
     int what = new Random().Next(0, 3);
     if (what == 0) {
            x = (x + xa)/2;
